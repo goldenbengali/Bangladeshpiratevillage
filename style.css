@@ -6,10 +6,11 @@ body{
 }
 
 .flex{
-    font-size: 20px;
+    font-size: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-align: center;
 }
 
 .tt2a {
@@ -24,8 +25,9 @@ body{
 
 .bordereddiv{
     border: 1px solid #fcffaa;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 7px;
+    padding-right: 30px;
+    padding-left: 30px;
     width: 50%;
 }
 
@@ -42,4 +44,16 @@ body{
 .repackS{
     padding-left: 30px;
     list-style-type: none;
+}
+
+.footer{
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 90px;
+    color: #2600ff;
+}
+
+.footer p{
+    text-align: center;
 }
