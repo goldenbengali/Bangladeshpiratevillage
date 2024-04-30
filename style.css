@@ -13,6 +13,12 @@ body{
     text-align: center;
 }
 
+@media (max-width: 600px) {
+    .flex {
+        font-size: 8px;
+    }
+}
+
 .tt2a {
     text-decoration: none;
     color: antiquewhite;
@@ -49,8 +55,7 @@ body{
 .footer{
     background-color: antiquewhite;
     padding: 10px;
-    border-radius: 50px;
-    margin-top: 90px;
+    border-radius: 20px;
     color: #2600ff;
 }
 
